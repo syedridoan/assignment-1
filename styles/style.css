@@ -1,0 +1,77 @@
+
+
+.fira-code-fira {
+  font-family: "Fira Code", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* nav styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 160px;
+
+}
+.nav-title{
+  font-weight: bold;
+  font-size: 32px;
+}
+nav ul li{
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.btn-primary{
+  font-weight: 600;
+  color: #006A50;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border-color: #006A50;
+
+
+  
+}
+.btn-secondary{
+  
+  background-color: #006A50;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+
+}
+.banner-content{
+  max-width: 622px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 220px 0px 220px;
+}
+
+/* banner styles */
+.banner-greetings{
+  font-size: 500;
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+}
+.banner-title{
+  font-size: 56px;
+  font-weight: 800;
+  text-decoration: #0E0E0E;
+}
+.banner-picture{
+  width: 484px;
+  
+}
+
