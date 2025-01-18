@@ -165,5 +165,76 @@ nav li a {
   border: none;
 
 }
+.btn-shape{
+  background-color:rgba(0, 106, 80, 1);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 26px;
+  border-radius: 8px;
+  border: none;
+}
+/* resume all-over */
+ .resume-full{
+  padding: 160px;
+}
+.resume{
+  display: flexbox;
+  justify-content: space-between;
+}
+.resume-title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.resume-picture{
+  width: 134px;
+  
+
+}
+.resume-max{
+  width: 744px;
+
+}
+ 
 
 
+.resume-content{
+  
+  text-align: left;
+  padding: 0px 0px;
+
+}
+
+.resume-h-three{
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  
+}
+.resume-change{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.news-img{
+  text-align: left;
+  padding: 48px 48px 48px 48px;
+  
+}
+.img-new{
+  border-radius: 24px;
+  max-width: 408px;
+}
+.sec-title{
+  max-width: 1280px;
+  padding: 48px;
+}
+.banner-last{
+  display: flex;
+  
+}
+.news-sec{
+  padding-left: 12px;
+}
