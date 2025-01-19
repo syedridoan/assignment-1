@@ -238,3 +238,41 @@ nav li a {
 .news-sec{
   padding-left: 12px;
 }
+/* card styles */
+.card-title{
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.card-description{
+  font-size: 16px;
+  font-weight: normal;
+}
+.card-dt{
+  font-size: 16px;
+  font-weight: normal;
+
+}
+.card-img{
+ width: 408px;
+ border-radius: 24px;
+ margin: 48px;
+
+
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 160px 24px 160px;
+}
+.card-content{
+  width: 744px;
+  
+}
+/* .card-new{
+  width: 408px;
+ border-radius: 24px;
+ margin: 48px;
+ text-align: left;
+
+} */
