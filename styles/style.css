@@ -276,3 +276,114 @@ nav li a {
  text-align: left;
 
 } */
+/* parent and child uses */
+.parent-title{
+  font-weight: 700px;
+  font-size: 40px;
+  text-align: center;
+}
+.parent-description{
+  font-weight: 400px;
+  font-size: 16px;
+  row-gap: 24px;
+  text-align: center;
+  gap: 32px;
+}
+.child{
+  border: 1px ;
+  border-radius: 16px;
+
+  text-align: center;
+  text-decoration: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+  display: inline;
+  gap: 32px;
+}
+/* .label{
+  padding: 32px;
+
+} */
+ /* .placeholder{
+  padding: 32px;
+ }
+ .parent{
+  max-width: 1280px;
+  justify-content: center;
+ /* } * */
+.parent{
+  position: static;
+  width: 1600px;
+  height: 4541px;
+}
+.contaier{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.new-child{
+  background: rgb(198, 228, 214);
+}
+.text-new{
+  font-weight: 700px;
+  font-size: 40px;
+  text-align: left;
+}
+.label{
+  box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+}
+.placeholder{
+  font-weight: 400px;
+  font-size: 20px;
+  text-align: left;
+}
+.btn-last{
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+}
+
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  padding: 20px 40px 20px 40px;
+}
+.layout-in{
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.name-two{
+  position: static;
+width: 1032px;
+height: 64px;
+}
+.btn-shape-final{
+  background-color:rgba(0, 106, 80, 1);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 26px;
+  border-radius: 8px;
+  border: none;
+  
+}
+.btn-container{
+  text-align: center;
+}
+
+.label-container{
+  text-align: center;
+  gap: 32px;
+}
+
+
